@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="section">
+    <div class="form">
+        <h2 class="form__header">login</h2>
+        <button class="form__button-floating"></button>
+        <form action="">
+            <div class="form__group">
+                <input id="username" class="form__input" type="text" required>
+                <span class="form__input-highlight"></span>
+                <span class="form__input-bar"></span>
+                <label for="username">Username</label>
+            </div>
+            <p class="form__error-msg">Please enter your username</p>
+
+            <div class="form__group">
+                <input id="password" class="form__input" type="text" required>
+                <span class="form__input-highlight"></span>
+                <span class="form__input-bar"></span>
+                <label for="password">Password</label>
+            </div>
+            <p class="form__error-msg">Please enter your password</p>
+            <div class="form__button form__button_with-border clickable">
+                <input class="form__button-input-toggle" type="checkbox"/>
+                <div class="form__button-anim"></div><span>go</span>
+            </div>
+        </form>
+        <a class="form__button-link" href="#" target="_blank">Forgot your password?</a>
+    </div>
+</section>
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
